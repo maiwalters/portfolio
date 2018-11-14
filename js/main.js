@@ -44,3 +44,7 @@ function closeNav() {
     document.getElementById("myNav").style.height = "0%";
 }
 
+document.addEventListener('aos:out', ({ detail }) => {
+  console.log('animated out', detail);
+});
+

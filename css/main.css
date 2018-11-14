@@ -491,9 +491,10 @@ span{
 
   .contact ul{
     list-style-type: none;
-    margin-top:5%;
-    float: right;
-    width: 35%
+    margin-top:3%;
+    width: 35%;
+    position: fixed;
+    margin-left: 35%;
 
       }
 
@@ -508,11 +509,15 @@ span{
     margin: auto 0;
   }
 
+  .right{
+    position: relative;
+  }
+
  #me{
   height: 350px;
   position:absolute;
-  margin-top: -52%;
-  margin-left: -10%;
+  margin-top: -99%;
+  margin-left: -20%;
  }
 
   #aboutme{
@@ -527,7 +532,7 @@ span{
     float:right;
     margin-right: 0px;
     height: 70px;
-    margin-top:15%;
+    margin-top:0%;
     
   }
 
@@ -535,7 +540,7 @@ span{
     float:left;
     margin-left:0px;
     height: 70px;
-    margin-top: 15%;
+    margin-top:03%;
   }
 
   .aboutinfo{
@@ -726,6 +731,13 @@ span{
       z-index: 11000;
     }
 }
+@media only screen and (min-height: 800px) {
+  #carousel-grandma > .carousel-inner > .carousel-item > img {
+  height:800px;
+  width:auto;
+  padding-top: 5%;
+}
+  }
 
 @media print,
        (-webkit-min-device-pixel-ratio: 1.25),
