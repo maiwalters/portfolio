@@ -380,6 +380,7 @@ span{
     margin-bottom: 20%;
   }
 
+
 .right{
   background-color: white;
 }
@@ -392,11 +393,10 @@ span{
   height: 50vh;
   width: auto;
   margin-top: 25%;
-  margin-right: 10%;
 }
 
 .carousel-inner > .carousel-item > img {
-  height:300px;
+  max-height:300px;
   width:auto;
 
 }
