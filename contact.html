@@ -10,7 +10,7 @@
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/masonry-docs.css">
@@ -38,23 +38,32 @@
         <div id="shit">
         <span  style="font-size:30px;cursor:pointer;position:fixed; top:1%; left:1%;" onclick="openNav()"><img src="img/menu.png"></span>
         </div>
-            <h1>Hi, I'm Mai !</h1>
+            <h1 class="porth1">Hi, I'm Mai !</h1>
            
         </div>
 
 
         <div class="right">
             <div class="contact">
-                <img class="howdy" src="img/howdy.svg">
+                <!--<img class="howdy" src="img/howdy.svg">-->
+
             <ul class="img">
                 <li><a href="mailto:maiverily@gmail.com" title="Email"><img class="social" src="img/email.svg"></a></li>
                 <li><a href="https://www.instagram.com/maiverily/" title="Insta"><img class="social" src="img/instagram.svg"></a></li>
                 <li><a href="https://www.linkedin.com/in/mai-walters-372851b6/" title="LinkedIn"><img class="social" src="img/linkedin.svg"></a></li>
                 <li id="resume"><a href="resumeNov2018.pdf" title="Resume"><img class="social" src="img/resume.svg"></a></li>
             </ul>
+            <img id="aboutme" class="banner" data-aos="fade-up"src="img/aboutme.png">
+            <p class="aboutinfo" data-aos="fade-up">Nice to meet ya! I enjoy everything hands on and outdoors such as hiking, snowboarding, longboarding, and working with animals.  I also enjoy drawing and DIY projects.  There's always something to do or another project to start! I recently graduated from the University of Connecticut with a degree in Digital Media Marketing and a minor in Psychology.  Since then I have taken a cross country road trip visiting 40 of all 50 states and I have traveled South Africa twice to work with wildlife. It was a great experience!</p>
+            <img id="interests" class="banner" data-aos="fade-up"src="img/interests.png">
+            <p class="aboutinfoR" data-aos="fade-up">In a professional setting I am very interested in a quick paced, give-and-receive enironment. I enjoy being creative and feel like I work best when being given constant feedback.  I enjoy web design work, brand management, campaign creation, and social media impression tracking.</p>
+            <img id="skills" class="banner" data-aos="fade-up"src="img/skills.png">
+            <p class="aboutinfo" data-aos="fade-up">I have experience with Adobe Creative Suite and am fluent with Illustrator, InDesign, Photoshop, Lightroom, and DreamWeaver.  I am also fluent coding in HTML, CSS, and Javascript (more often JQuery).  I have experience with PHP and mySQL and making custom Wordpress themes.  I am Hootsuite certified and have worked with Tableau, Sharepoint, and Wordpress.</p>
         
             </div>
             <img id="me" src="img/me.png">
+            <div class="extender"></div>
+          
         </div>
         
 
@@ -62,6 +71,10 @@
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
