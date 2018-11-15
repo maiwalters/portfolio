@@ -380,6 +380,7 @@ span{
     margin-bottom: 20%;
   }
 
+
 .right{
   background-color: white;
 }
@@ -392,11 +393,10 @@ span{
   height: 50vh;
   width: auto;
   margin-top: 25%;
-  margin-right: 10%;
 }
 
 .carousel-inner > .carousel-item > img {
-  height:300px;
+  max-height:300px;
   width:auto;
 
 }
@@ -483,6 +483,10 @@ span{
     height: 100vh;
   }
 
+  .right{
+    position: relative;
+  }
+
   .howdy{
     margin-top: 20%;
     height: 250px;
@@ -492,31 +496,31 @@ span{
   .contact ul{
     list-style-type: none;
     margin-top:3%;
-    width: 35%;
+    width: 50%;
     position: fixed;
-    margin-left: 35%;
+  }
 
-      }
+  .img{
+    float:right;
+  }
 
   .img li{
     padding-bottom: 25%;
     display: inline-block;
     padding-right: 2%;
+    float:right;
   }
 
   .social{
     height:30px;
     margin: auto 0;
-  }
 
-  .right{
-    position: relative;
   }
 
  #me{
   height: 350px;
   position:absolute;
-  margin-top: -99%;
+  margin-top: -104%;
   margin-left: -20%;
  }
 
@@ -528,11 +532,16 @@ span{
     
   }
 
+  #arrow{
+   height:25px; 
+   margin-top:80%;
+  }
+
   #interests{
     float:right;
     margin-right: 0px;
     height: 70px;
-    margin-top:0%;
+    margin-top:20%;
     
   }
 
@@ -540,7 +549,7 @@ span{
     float:left;
     margin-left:0px;
     height: 70px;
-    margin-top:03%;
+    margin-top: 40%;
   }
 
   .aboutinfo{
@@ -560,13 +569,10 @@ span{
     padding-right: 2%;
     padding-top: 1%;
   }
-
-  .extender{
-    height: 100vh;
-  }
-  .visible{
-    opacity:1;
-  }
+ 
+ .extender {
+  height: 300vh;
+ }
 
 
 
@@ -730,7 +736,14 @@ span{
       margin-left: 25%;
       z-index: 11000;
     }
+    .contact ul{
+      width: 70%;
+    }
+    #aboutme{
+      margin-top: 1%;
+    }
 }
+
 @media only screen and (min-height: 800px) {
   #carousel-grandma > .carousel-inner > .carousel-item > img {
   height:800px;
