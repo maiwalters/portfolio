@@ -483,6 +483,10 @@ span{
     height: 100vh;
   }
 
+  .right{
+    position: relative;
+  }
+
   .howdy{
     margin-top: 20%;
     height: 250px;
@@ -491,36 +495,46 @@ span{
 
   .contact ul{
     list-style-type: none;
-    margin-top:5%;
-    float: right;
-    width: 35%
+    margin-top:3%;
+    width: 50%;
+    position: fixed;
+  }
 
-      }
+  .img{
+    float:right;
+  }
 
   .img li{
     padding-bottom: 25%;
     display: inline-block;
     padding-right: 2%;
+    float:right;
   }
 
   .social{
     height:30px;
     margin: auto 0;
+
   }
 
  #me{
   height: 350px;
   position:absolute;
-  margin-top: -52%;
-  margin-left: -10%;
+  margin-top: -104%;
+  margin-left: -20%;
  }
 
   #aboutme{
     float:left;
     margin-left:0px;
     height: 70px;
-    margin-top: 35%;
+    margin-top: 40%;
     
+  }
+
+  #arrow{
+   height:25px; 
+   margin-top:80%;
   }
 
   #interests{
@@ -535,7 +549,7 @@ span{
     float:left;
     margin-left:0px;
     height: 70px;
-    margin-top: 3%;
+    margin-top: 40%;
   }
 
   .aboutinfo{
@@ -559,6 +573,7 @@ span{
  .extender {
   height: 300vh;
  }
+
 
 
 
@@ -729,6 +744,14 @@ span{
       margin-top: 1%;
     }
 }
+
+@media only screen and (min-height: 800px) {
+  #carousel-grandma > .carousel-inner > .carousel-item > img {
+  height:800px;
+  width:auto;
+  padding-top: 5%;
+}
+  }
 
 @media print,
        (-webkit-min-device-pixel-ratio: 1.25),
